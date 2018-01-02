@@ -1,0 +1,107 @@
+h1{
+	text-align: center;
+	font-size: 2em;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+.centertekst{
+	text-align: center;
+}
+
+.farvebilleder{
+	size: 60%;
+}
+
+/* Side Navbar style */
+@import url(//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.4/paper/bootstrap.min.css);
+@import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css);
+
+.fading-side-menu.affix-top {
+    opacity: 1;
+    transition: opacity 1s
+}
+.fading-side-menu.affix {
+    top: 11.5px;
+}
+.fading-side-menu.affix {
+    opacity: 0.2;
+    transition: opacity 5s
+}
+.fading-side-menu.affix:hover {
+    opacity: 1;
+    transition: opacity 0.3s
+}
+.fading-side-menu a {
+    color: rgb(102, 102, 102);
+}
+.fading-side-menu a .fa {
+    padding-right:15px;
+}
+
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: #eee;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
+
+.top-buffer1{ 
+	margin-top:7em; 
+}
+
+.top-buffer2{ 
+	margin-top:2em; 
+}
+
+.bottom-buffer1{
+	margin-bottom:3em;
+}
+
+
+.breadcrumb-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 104px 0 110px;
+    position: relative;
+    width:100%;
+}
+.breadcrumb-image::before {
+    background: rgba(0, 0, 0, 0.80) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.breadcrumb-image h1 {
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 40px;
+    position: relative;
+    text-transform: uppercase;
+}
+.breadcrumbs_path {
+    color: #fff;
+    margin-top: 8px;
+    position: relative;
+    z-index: 9;
+}
+.breadcrumbs_path > a {
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
